@@ -12,15 +12,15 @@ global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/Lavostii' // add your username
 global.sudo = process.env.SUDO || '254799173650'
 global.devs = '254799173650';
-global.website = 'https://github.com/Maccoder3/MAC-MD' //wa.me/+25000000000000
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/8ec95da555e8347af71bd.jpg'
+global.website = 'https://github.com/Lavosti001' //wa.me/+25000000000000
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/e477edc6ccd21fe501adb.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? '༒♧-𝐋𝐀 𝐕𝐎𝐒𝐓𝐈-☆༒' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? '༒♧-𝐋𝐀 𝐕𝐎𝐒𝐓𝐈-☆༒' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_INFO.("༒♧-𝐋𝐀 𝐕𝐎𝐒𝐓𝐈-☆༒")[0] === undefined ? 'mac' : process.env.PACK_INFO.split(";")[0],
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? true : process.env.AUTO_READ_STATUS,
-  packname:  process.env.PACK_INFO.("༒♧-𝐋𝐀 𝐕𝐎𝐒𝐓𝐈-☆༒")[1] === undefined ? 'MAC-Md' : process.env.PACK_INFO.split(";")[1],
+  packname:  process.env.PACK_INFO.("༒♧-𝐋𝐀 𝐕𝐎𝐒𝐓𝐈-☆༒")[1] === undefined ? '༒♧-𝐋𝐀 𝐕𝐎𝐒𝐓𝐈-☆༒' : process.env.PACK_INFO.split(";")[1],
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
